@@ -1,25 +1,32 @@
-
-               {"description": "map left shift to opening parenthesis",
-                  "type": "basic",
-                    "from": {"key_code": "left_shift",
-                              "modifiers": {"optional": ["any"]}
-                            },
-                    "to_if_alone": [{"key_code": "9",
-                              "modifiers": ["left_shift"]
-                                    }],
-                    "to": [{"key_code": "left_shift",
-                              "modifiers": []
-                           }]
-               },
-                {"description": "map right shift to closing parenthesis",
-                  "type": "basic",
-                    "from": {"key_code": "right_shift",
-                              "modifiers": {"optional": ["any"]}
-                            },
-                    "to_if_alone": [{"key_code": "0",
-                                      "modifiers": ["left_shift"]
-                                    }],
-                    "to": [{"key_code": "right_shift",
-                              "modifiers": []
-                           }]
-                }]}]},
+       "complex_modifications": {
+          "rules": [
+               {"description": "map caps_lock to left_control, or escape if pressed alone",
+                "manipulators": [{
+                    "from": {"key_code": "caps_lock", 
+                             "modifiers": {"optional": ["any"]}},
+                    "to": [{"key_code": "left_control"}],
+                    "to_if_alone": [{"key_code": "escape"}],
+                    "type": "basic"}]},
+               {"description": "map return_or_enter to right_control, or return_or_enter if pressed alone",
+                "manipulators": [{
+                    "from": {"key_code": "return_or_enter", 
+                             "modifiers": {"optional": ["any"]}},
+                    "to": [{"key_code": "right_control"}],
+                    "to_if_alone": [{"key_code": "return_or_enter"}],
+                    "type": "basic"}]},
+               {"description": "map left_shift to left_shift, or opening parenthesis if pressed alone",
+                "manipulators": [{
+                    "from": {"key_code": "left_shift", 
+                             "modifiers": {"optional": ["any"]}},
+                    "to": [{"key_code": "left_shift"}],
+                    "to_if_alone": [{"key_code": "9"},
+                                   "modifiers": ["left_shift"]}],
+                    "type": "basic"}]},               
+                {"description": "map right_shift to right_shift, or closing parenthesis if pressed alone",
+                "manipulators": [{
+                    "from": {"key_code": "right_shift", 
+                             "modifiers": {"optional": ["any"]}},
+                    "to": [{"key_code": "right_shift"}],
+                    "to_if_alone": [{"key_code": "0"},
+                                   "modifiers": ["left_shift"]}],
+                    "type": "basic"}]},             
