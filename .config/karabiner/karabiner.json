@@ -29,8 +29,8 @@
                     "to_if_alone": [{"key_code": "9",
                                      "modifiers": ["left_shift"]}],
                     "type": "basic"}]},               
-                {"description": "map right_shift to right_shift, or closing parenthesis if pressed alone",
-                 "manipulators": [{
+               {"description": "map right_shift to right_shift, or closing parenthesis if pressed alone",
+                "manipulators": [{
                     "from": {"key_code": "right_shift", 
                              "modifiers": {"optional": ["any"]}},
                     "to": [{"key_code": "right_shift"}],
