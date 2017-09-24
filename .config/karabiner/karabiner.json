@@ -1,1 +1,25 @@
 
+               {"description": "map left shift to opening parenthesis",
+                  "type": "basic",
+                    "from": {"key_code": "left_shift",
+                              "modifiers": {"optional": ["any"]}
+                            },
+                    "to_if_alone": [{"key_code": "9",
+                              "modifiers": ["left_shift"]
+                                    }],
+                    "to": [{"key_code": "left_shift",
+                              "modifiers": []
+                           }]
+               },
+                {"description": "map right shift to closing parenthesis",
+                  "type": "basic",
+                    "from": {"key_code": "right_shift",
+                              "modifiers": {"optional": ["any"]}
+                            },
+                    "to_if_alone": [{"key_code": "0",
+                                      "modifiers": ["left_shift"]
+                                    }],
+                    "to": [{"key_code": "right_shift",
+                              "modifiers": []
+                           }]
+                }]}]},
