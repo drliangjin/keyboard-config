@@ -1,6 +1,8 @@
 # karabiner-config
 Dr Jin's Karabiner Config
 
+## How to Install
+
 ## Complex Modifications
 ### Modifier Keys
 - Map Caps Lock to Left Control, or Escape if pressed alone
