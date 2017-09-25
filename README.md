@@ -2,6 +2,9 @@
 Dr Jin's Karabiner Config
 
 ## How to Install
+```
+$ git clone https://github.com/drliangjin/karabiner-config ~/.config/karabiner/
+```
 
 ## Complex Modifications
 ### Modifier Keys
