@@ -1,7 +1,7 @@
 # karabiner-config
 Dr Jin's Karabiner Config
 
-## Complicated Modifications
+## Complex Modifications
 ### Modifier Keys
 - Map Caps Lock to Left Control, or Escape if pressed alone
 - Map Return/Enter to Right Control, or Return/Enter if pressed alone
