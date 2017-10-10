@@ -9,7 +9,7 @@
 ### Others
 
 ## Installation
-- Karabiner Elements via homebrew
+- Karabiner-Elements via homebrew
 ```
 brew cask install karabiner-elements
 ```
