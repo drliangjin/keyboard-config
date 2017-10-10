@@ -1,4 +1,4 @@
-# karabiner-elements config
+# Karabiner-Elements Config
 
 ## Complex Modifications
 ### Modifier Keys
