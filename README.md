@@ -1,4 +1,4 @@
-# karabiner-config
+# karabiner-elements config
 
 ## Complex Modifications
 ### Modifier Keys
@@ -6,6 +6,7 @@
 - Map Return/Enter to Right Control, or Return/Enter if pressed alone
 - Map Left Shift to Left Shift, or Opening Parenthesis if pressed alone
 - Map Right Shift to Right Shift, or Closing Parenthesis if pressed alone
+### Others
 
 ## Installation
 - Karabiner Elements via homebrew
@@ -19,4 +20,5 @@ brew cask install karabiner-elements
 git clone https://github.com/drliangjin/karabiner-config ~/.config/karabiner/
 ```
 
+## Enjoy!
 
