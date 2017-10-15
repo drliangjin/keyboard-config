@@ -7,18 +7,18 @@
 - Map Left Shift to Left Shift, or Opening Parenthesis if pressed alone
 - Map Right Shift to Right Shift, or Closing Parenthesis if pressed alone
 ### Others
-
 ## Installation
 - Karabiner-Elements via homebrew
 ```
 brew cask install karabiner-elements
 ```
-
 ## Configuration
 - Personal configuration via git
 ```
 git clone https://github.com/drliangjin/karabiner.json ~/.config/karabiner/
 ```
-
+## ToDo
+- Map left alt to left alt, or something useful if pressed alone
+- Map right alt to right alt, or something useful if pressed alone
 ## Enjoy!
 
