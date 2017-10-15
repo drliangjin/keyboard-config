@@ -17,7 +17,7 @@ brew cask install karabiner-elements
 ## Configuration
 - Personal configuration via git
 ```
-git clone https://github.com/drliangjin/karabiner-config ~/.config/karabiner/
+git clone https://github.com/drliangjin/karabiner.json ~/.config/karabiner/
 ```
 
 ## Enjoy!
