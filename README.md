@@ -15,7 +15,7 @@ brew cask install karabiner-elements
 ## Configuration
 - Personal configuration via git
 ```
-git clone https://github.com/zuo-zuo/karabiner.json ~/.config/karabiner/
+git clone https://github.com/drliangjin/karabiner.json ~/.config/karabiner/
 ```
 ## ToDo
 - Map left alt to left alt, or something useful if pressed alone
