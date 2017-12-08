@@ -1,7 +1,11 @@
 # CapsLock to ESC, or Control when holding
+xmodmap -e "remove Control = Control_L"
+xmodmap -e "keycode 0x25 = Caps_Locks"
+xmodmap -e "keycode 0x42 = Control_L"
+xmodmap -e "add Control = Control_L"
 
 # make CapsLock behave like Ctrl:
-setxkbmap -option ctrl:nocaps
+# setxkbmap -option ctrl:nocaps
 
 # make short-pressed Ctrl behave like Escape:
 xcape -e 'Control_L=Escape'
