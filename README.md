@@ -22,3 +22,5 @@ git clone https://github.com/drliangjin/karabiner.json ~/.config/karabiner/
 - Map right alt to right alt, or something useful if pressed alone
 ## Enjoy!
 
+## Resources
+- a comprehensive [guide](https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450)
