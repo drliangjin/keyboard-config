@@ -1,6 +1,6 @@
 # CapsLock to ESC, or Control when holding
 xmodmap -e "remove Control = Control_L"
-xmodmap -e "keycode 0x25 = Caps_Locks"
+xmodmap -e "keycode 0x25 = Caps_Lock"
 xmodmap -e "keycode 0x42 = Control_L"
 xmodmap -e "add Control = Control_L"
 
