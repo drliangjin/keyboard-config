@@ -19,3 +19,5 @@ xmodmap -e "keycode 0x24 = Control_R"
 xmodmap -e "add Control = Control_R"
 
 xcape -e 'Control_R=Return'
+
+xcape -e "Shift_L=parenleft;Shift_R=parenright"
