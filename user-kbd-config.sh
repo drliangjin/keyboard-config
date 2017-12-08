@@ -1,3 +1,4 @@
+#!/bin/bash
 # CapsLock to ESC, or Control when holding
 xmodmap -e "remove Control = Control_L"
 xmodmap -e "remove Lock = Caps_Lock"
