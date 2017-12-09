@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=keybindings
+Comment=keybindgs
+Exec=sh -c '~/.keybindings'
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
