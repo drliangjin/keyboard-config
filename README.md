@@ -22,5 +22,14 @@ git clone https://github.com/drliangjin/karabiner.json ~/.config/karabiner/
 - Map right alt to right alt, or something useful if pressed alone
 ## Enjoy!
 
+# Linux (without Karabiner-Elements)
+## Arch/Manjaro with Gnome DE
+- Create a .desktop file under ~/.config/autostart/
+- Create executable shell script under dotfile directory
+- NOTE for desktopfile command:
+```
+sh -c '~/ScriptName
+```
+
 ## Resources
 - a comprehensive [guide](https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450)
