@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+# Install Keyboard Config
+
+# Detect OS
+
+# If macOS then brew
+
+# If Linux, or Arch, then pacman
+# If Debian, then
+# If Red Hat, then
