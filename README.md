@@ -33,3 +33,4 @@ sh -c '~/ScriptName
 
 ## Resources
 - a comprehensive [guide](https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450)
+- a [guide](https://www.linux.com/learn/hacking-your-linux-keyboard-xkb) for pressing both shift keys as caps lock
