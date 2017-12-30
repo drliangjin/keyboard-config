@@ -12,6 +12,8 @@
 ```
 brew cask install karabiner-elements
 ```
+- Copy or symlink karabiner.json to the directory `~/.karabiner.d/configuration/` or `~/.config/karabiner/`
+
 ## ToDo
 - Map left alt to left alt, or something useful if pressed alone
 - Map right alt to right alt, or something useful if pressed alone
